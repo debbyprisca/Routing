@@ -5,7 +5,13 @@ function Contactpage() {
   return (
     <div>
         <Header />
-        <h1>Contact Page</h1>
+      <div>
+        <h1>Contact Us</h1>
+        <h3>Our Details</h3>
+      <p>Email: info@eventify.com</p>
+      <p>Phone: +256 775640997</p>
+      <p>Address: 123 Clement lane, Jinja Rd</p>
+      </div>
     </div>
   )
 }

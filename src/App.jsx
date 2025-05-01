@@ -1,6 +1,6 @@
-import Header, {Component2} from './components/Header'
+import Header from './components/Header'
 import './App.css'
-import React, {useState,useEffect} from 'react'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import Gallerypage from './pages/Gallerypage'

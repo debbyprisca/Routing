@@ -1,4 +1,4 @@
- import Logo from '../assets/Logo.webp'
+
  import { useNavigate } from 'react-router-dom'
 
 
@@ -10,21 +10,11 @@
             <button onClick={()=>{Navigate('/gallery')}}>Gallery</button>
             <button onClick={()=>{Navigate('/about')}}>About</button>
             <button onClick={()=>{Navigate('/contact')}}>Contact</button>
-            <h2>Buttons</h2>          
+            <h2></h2>          
         </div>
     )
 } 
 
-export function Component2 (){ 
-
-    return (
-        <>
-         <h1>This is the other export</h1>
-         <img src={Logo} alt="" />
-        </>
-
-    )
-}
 
 
 
